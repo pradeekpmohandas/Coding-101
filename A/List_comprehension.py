@@ -15,3 +15,10 @@ print(ages)
 #EQUIVALENT :
 years_of_birth = [1990, 1991, 1990, 1990, 1992, 1991]
 ages = [2014 - year for year in years_of_birth]
+
+
+#another example 
+import random
+a = random.sample(range(1,30), 12)
+b = random.sample(range(1,30), 16)
+result = [i for i in set(a) if i in b]
