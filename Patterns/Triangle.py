@@ -20,3 +20,22 @@ def pattern(n):
     print()
   
 pattern(5)
+
+
+"""
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+Revesed
+"""
+def pattern(n):
+  d = n
+  for i in range(1,n+1):
+    for l in range(d):
+      print("* ",end="")
+    d -=1
+    print()
+  
+pattern(5)
