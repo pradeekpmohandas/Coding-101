@@ -52,3 +52,16 @@ def pypart2(n):
 # Driver Code
 n = 5
 pypart2(n)
+
+
+
+
+""""
+pyramid 3
+       *
+      **
+    ***
+  ****
+*****
+"""
+print("*",end="") #instead of ==> print("* ",end="")
