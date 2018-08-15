@@ -1,2 +1,2 @@
-# Python-101
-Simple python codes
+# Coding101
+Simple codes
